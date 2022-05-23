@@ -12,6 +12,7 @@ for (let i = 1; i < 30; i++){
 	var date = new Date().getDate();   // находим текущую дату
 	if (date !== i) {
 		newLi.innerHTML = i;
+		
 	}
 	else {
 		newLi.innerHTML = '';
